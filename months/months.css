@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/assets/image-1.webp);
+    background-repeat: no-repeat;
+    background-size:100%;
+   
+
+}
+.calendar{
+    width: 50%;
+    margin:85px auto;
+    padding: 30px;
+    /* background-color: rgb(12, 12, 9); */
+    box-shadow: rgba(4, 4, 59, 0.5) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.month-header{
+    text-align: center;
+    background-color: rgb(194, 123, 216);
+    display: flex;
+     flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.month-header > div,a{
+   
+    padding: 15px;
+    text-decoration: none;
+
+}
+.month-header > div,a ,i{
+   font-size: 40px;
+  
+   color: rgb(12, 1, 63);
+
+}
+h1{   
+font-size: 80px;
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+}
+table{
+    width: 620px;
+    color: rgb(0, 0, 0);
+   
+}
+th{
+    font-size: 25px;
+    text-align: center;
+}
+td{
+    font-size: 30px;
+    border: 2px solid sienna;
+    text-align: center;
+}
+th:hover {
+    background-color: rgba(58, 58, 5, 0.37);
+  }
+  td:hover {
+    background-color: rgb(226, 186, 199);
+  }
+  @media screen  and (max-width :375px){
+    .calendar{
+        width: 100%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    table{
+        width: 340px;
+    }
+  }
+  @media screen  and (max-width :700px){
+    .calendar{
+        width: 100%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    table{
+        width: 340px;
+    }
+  }
+  @media screen  and (max-width :500px){
+    .calendar{
+        width: 100%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    table{
+        width: 640px;
+    }
+  }
